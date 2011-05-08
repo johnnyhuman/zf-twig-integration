@@ -75,5 +75,5 @@ function human_readable_size($val, $round = 2, $unit = 'b') {
         $val = $val / 1024;
     }
 
-    return round($val, $round) . ' ' . mb_convert_case($unit, MB_CASE_UPPER);
+    return round($val, $round) . ' ' . strtoupper($unit);
 }
