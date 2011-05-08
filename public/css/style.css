@@ -31,6 +31,11 @@ a:visited {
     height: 100%;
 }
 
+#links {
+	display: block;
+	padding-bottom: 7px;
+}
+
 #powered_by {
-	padding-top: 26px;
+	padding-top: 20px;
 }
