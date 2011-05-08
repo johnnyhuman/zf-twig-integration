@@ -46,5 +46,5 @@ $application->bootstrap()
 debug_print_stats();
 
 // Wanna see included files? Uncomment this:
-debug_print_included_files(ROOT_PATH);
+//debug_print_included_files(ROOT_PATH);
 
