@@ -8,9 +8,7 @@ Check the "branches" for more sample projects with a different type of Twig inte
 
 Download the source code form GitHub and extract it somewhere under the webserver root directory.
 
-Download the latest [Zend Framework](http://framework.zend.com/download/latest) and [Twig](http://www.twig-project.org/installation) packages and put library/Zend and lib/Twig
-
-into the "library" directory of your project.
+Download the latest [Zend Framework](http://framework.zend.com/download/latest) and [Twig](http://www.twig-project.org/installation) packages and put library/Zend and lib/Twig into the "library" directory of your project.
 
 ## License
 
