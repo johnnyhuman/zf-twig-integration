@@ -18,4 +18,4 @@ into the "library" directory of your project.
 <img src="http://i.creativecommons.org/p/mark/1.0/88x31.png" 
 style="border-style: none;" alt="Public Domain" /></a>
 
-Public domain: [CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)
+Public domain: [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
