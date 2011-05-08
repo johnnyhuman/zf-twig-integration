@@ -1,14 +1,14 @@
 # Twig integration with Zend Framework
 
-This is an example Zend Framework project with integrated Twig template engine. 
-You can fork this repository to start your new ZF project which will use the Twig as a template engine.
+This is an example [Zend Framework](http://framework.zend.com) project with integrated [Twig](http://www.twig-project.org/) template engine. 
+You can fork this repository to start your new ZF project which will use the [Twig](http://www.twig-project.org/) as a template engine.
 Check the "branches" for more sample projects with a different type of Twig integrations.
 
 ## Installation
 
 Download the source code form GitHub and extract it somewhere under the webserver root directory.
 
-Download the latest Zend Framework and Twig packages and put library/Zend and lib/Twig
+Download the latest [Zend Framework](http://framework.zend.com/download/latest) and [Twig](http://www.twig-project.org/installation) packages and put library/Zend and lib/Twig
 
 into the "library" directory of your project.
 
