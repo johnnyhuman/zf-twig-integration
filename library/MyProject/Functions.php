@@ -14,7 +14,7 @@ function debug($data, $exit = true, $action = null, $label=null) {
         default :
         	echo '<pre>';
             print_r($data);
-            echo '/<pre>';
+            echo '</pre>';
             break;
     }
 
@@ -28,10 +28,24 @@ function debug_print_stats() {
 	$_mem = human_readable_size(memory_get_peak_usage(true), 6, 'kb');
 	$_inc = count(get_included_files());
 
-	print '<div style="margin:0 auto; text-align:left; font:12px Tahoma; width:80%; clear:both;">
+	print '<div style="margin:0 auto; margin-bottom:30px; text-align:left; font:12px Tahoma; width:80%; clear:both;">
            <b>Page gen:</b> ' . $_et . ' s&nbsp;&nbsp;&nbsp;<b>Mem peak usage:</b> ' .
-		   $_mem . '&nbsp;&nbsp;&nbsp;<b>Includes:</b> ' . $_inc . '</div>' .
-		   '<br /><br /><br />';
+		   $_mem . '&nbsp;&nbsp;&nbsp;<b>Includes:</b> ' . $_inc . '</div>';
+}
+
+// Debug, print included files
+function debug_print_included_files($base_path=null, $sort=false) {
+	$inc = get_included_files();
+
+	if (null !== $base_path) {
+		array_walk($inc, function (&$val, $key, $base_path) {
+		    $val = str_ireplace($base_path, '', $val);
+		}, $base_path);
+	}
+
+	if ($sort) { sort($inc); }
+
+	debug($inc);
 }
 
 // Returns sizes in human readable format (e.g., 1K 234M 2G) 

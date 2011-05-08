@@ -5,11 +5,11 @@ a:visited {
     color: #0398CA;
 }
 
-span#zf-name {
+#zf-name {
     color: #91BE3F;
 }
 
-div#welcome {
+#welcome {
     color: #FFFFFF;
     background-image: url(http://framework.zend.com/images/bkg_header.jpg);
     width:  600px;
@@ -19,7 +19,18 @@ div#welcome {
     text-align: center;
 }
 
-div#more-information {
+#hello {
+	font-size: 130%;
+	padding-top: 10px;
+	padding-bottom: 42px;
+}
+
+#more-information {
+	padding-top: 25px;
     background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
     height: 100%;
+}
+
+#powered_by {
+	padding-top: 26px;
 }

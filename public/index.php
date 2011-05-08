@@ -46,7 +46,5 @@ $application->bootstrap()
 debug_print_stats();
 
 // Wanna see included files? Uncomment this:
-//$inc = get_included_files();
-//sort($inc); //Uncomment only if you want list to be sorted by name
-//debug($inc);
+debug_print_included_files(ROOT_PATH);
 
