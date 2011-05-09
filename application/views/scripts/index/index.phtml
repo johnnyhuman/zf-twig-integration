@@ -3,13 +3,16 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>{{ title }}</title>
-	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div id="welcome">
-	    <h1>Welcome to the<div id="zf-name">Zend Framework!</div></h1>
+	    <h1>Welcome to the<span id="zf-name">Zend Framework!</span></h1>
 
-		<div id="hello">Hello {{ user }} @ {{ ip }}<br />This is your project's main page</div>
+		<div id="hello">Hello {{ user }} @ {{ host }}<br />
+		This is your project's main page and<br />
+		it was rendered using <a href="http://www.twig-project.org" class="white">Twig</a> template engine.
+		</div>
 
 	    <div id="more-information">
 	        <p>
@@ -18,7 +21,9 @@
 	            <a href="http://framework.zend.com/manual/en/">Zend Framework Manual</a>
 	        </p>
 
-	        <div id="powered_by"><img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" /></div>
+	        <div id="powered_by">
+	        	<a href="http://framework.zend.com/"><img src="images/PoweredBy_ZF_4LightBG.png" alt="Zend Framework" /></a>
+	        </div>
 	    </div>
 	</div>
 </body>

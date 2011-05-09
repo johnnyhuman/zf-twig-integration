@@ -18,7 +18,7 @@ class IndexController extends Zend_Controller_Action
         		array(
         			'title' => 42,
         			'user' => '%username%',
-        			'ip' => $_SERVER['REMOTE_ADDR']
+        			'host' => $_SERVER['REMOTE_ADDR']
         		)
         	),
             'default'

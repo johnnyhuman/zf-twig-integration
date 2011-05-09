@@ -4,17 +4,22 @@ a:link,
 a:visited {
     color: #0398CA;
 }
+a.white:link,
+a.white:visited {
+    color: #fff;
+}
 
 #zf-name {
+	display: block;
     color: #91BE3F;
 }
 
 #welcome {
-    color: #FFFFFF;
-    background-image: url(http://framework.zend.com/images/bkg_header.jpg);
+    color: #fff;
+    background-image: url(../images/bkg_header.jpg);
     width:  600px;
     height: 400px;
-    border: 2px solid #444444;
+    border: 2px solid #333;
     overflow: hidden;
     text-align: center;
 }
@@ -22,12 +27,12 @@ a:visited {
 #hello {
 	font-size: 130%;
 	padding-top: 10px;
-	padding-bottom: 42px;
+	padding-bottom: 36px;
 }
 
 #more-information {
-	padding-top: 25px;
-    background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
+	padding-top: 12px;
+    background-image: url(../images/bkg_body-bottom.gif);
     height: 100%;
 }
 
@@ -37,5 +42,5 @@ a:visited {
 }
 
 #powered_by {
-	padding-top: 20px;
+	padding-top: 15px;
 }
